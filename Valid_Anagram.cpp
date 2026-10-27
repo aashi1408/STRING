@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool isAnagram(string s, string t) {
-        if(s.length() != t.length()) return false;
+        //if(s.length() != t.length()) return false;
         //anagrams have same length,same letters with same freq
         // can't use char array
         //if it's char array means it can't store count/freq
